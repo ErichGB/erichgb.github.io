@@ -1,0 +1,223 @@
+body{
+	background-color: #e9eaed;
+	margin: 20px 0;
+}
+
+.navbar .nav li:first-child a{ border-left: 1px solid #DEDEDE; }
+.navbar{ margin-bottom: 0; }
+
+.brand{
+	position: relative;
+	width: 170px;
+}
+
+.photo{
+	position: absolute;
+	top: -180px;
+}
+
+.back{
+	background-image: url('../img/back.png');
+	background-position: bottom center;
+	display: block;
+	height: 350px;
+	position: relative;
+	width: 100%;
+}
+
+section{
+    padding-top: 50px;
+}
+
+header .info{
+	bottom: 1em;
+	color: #FFF;
+	display: inline-block;
+	left: 220px;
+	position: absolute;
+	z-index: 2;
+}
+
+header .info h1{ font-size: 24px; }
+header .info h2{ font-size: 20px; }
+
+article{
+	background-color: #FFF;
+	border-radius: 3px;
+	border: 1px solid #d3d6db;
+	overflow: hidden;
+	padding: 1em;
+}
+
+article .title{
+	background-color: #f6f7f8;
+	border-bottom: 1px solid #e9eaed; 
+	border-radius: 4px 4px 0 0;
+	margin-bottom: 1em;
+	margin-left: -1em;
+	margin-right: -1em;
+	margin-top: -1em;
+	overflow: hidden;
+	padding: 0 1em;
+}
+
+article .title h3{
+	color: #6a7480;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.table{
+	margin: 0;
+}
+
+.header{
+	margin-bottom: 1.5em;
+}
+
+.header h2{
+	background-color: #e9eaed;
+	color: #89919c;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 20px;
+	margin-left: 1em;
+	padding: 0 0.5em;
+}
+
+.line{
+	border-bottom: 1px solid #f6f7f8;
+	border-top: 1px solid #d3d7dc;
+	margin-top: -20px;
+}
+
+.navbar.affix{ top: 0px; right: 20px; left: 20px; z-index: 5;}
+.navbar.affix .brand img{ display: none; }
+
+#social a {
+	font-size: 27px;
+	padding: 12px 20px;
+}
+
+#social a i{
+	line-height: 27px;
+}
+
+/* estilos de las imagenes del portafolio */
+.stack {
+	display: inline-block;
+	height: 190px;
+	margin-bottom: 2em;
+	position: relative;
+	/*width: 240px;*/
+    width: 80%;
+	z-index: 0; 
+	list-style: none;
+    margin-left: 15%;
+}
+  
+.stack:before {
+    color: #FFF;
+    content: attr(data-count);
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    left: 5px;
+    opacity: .7; 
+    padding: 0 4px 0 32px;
+    pointer-events: none;
+    position: absolute;
+    top: 14px;
+    z-index: 10;
+}
+
+.stack:after {
+    color: #FFF;
+    content: "\f03e";
+    display: block;
+    font-family: FontAwesome;
+    font-size: 20px;
+    left: 16px;
+    opacity: .75; 
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 16px;
+    z-index: 10;
+}
+
+.stack li {
+    -moz-transition: all 160ms ease-in;
+    -o-transition: all 160ms ease-in;
+    -webkit-transition: all 160ms ease-in;
+    cursor: pointer;
+    left: 8px;
+    position: absolute;
+    top: 8px;
+    transition: all 160ms ease-in; 
+    z-index: 1;
+}
+
+.stack li:first-child {
+      z-index: 2; 
+}
+
+.stack li:nth-child(2) {
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg); 
+}
+
+.stack li:nth-child(3) {
+    -moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg); 
+}
+
+.stack img {
+    display: block;
+    /*border: 4px solid white;*/
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.51);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.51);
+    -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.51);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.51);
+    -moz-transition: opacity 160ms ease;
+    -webkit-transition: opacity 160ms ease;
+    -o-transition: opacity 160ms ease;
+    transition: opacity 160ms ease; 
+}
+
+.stack:hover li:nth-child(2) {
+    -moz-transform: rotate(7deg) translate(-6px, -3px);
+    -webkit-transform: rotate(7deg) translate(-6px, -3px);
+    -o-transform: rotate(7deg) translate(-6px, -3px);
+    -ms-transform: rotate(7deg) translate(-6px, -3px);
+    transform: rotate(7deg) translate(-6px, -3px); 
+}
+
+.stack:hover li:nth-child(3) {
+    -moz-transform: rotate(-5deg) translate(10px, 10px);
+    -webkit-transform: rotate(-5deg) translate(10px, 10px);
+    -o-transform: rotate(-5deg) translate(10px, 10px);
+    -ms-transform: rotate(-5deg) translate(10px, 10px);
+    transform: rotate(-5deg) translate(10px, 10px); 
+}
+
+.stack:hover li:nth-child(4) {
+    -moz-transform: rotate(-4deg) translate(-16px, -2px);
+    -webkit-transform: rotate(-4deg) translate(-16px, -2px);
+    -o-transform: rotate(-4deg) translate(-16px, -2px);
+    -ms-transform: rotate(-4deg) translate(-16px, -2px);
+    transform: rotate(-4deg) translate(-16px, -2px); 
+}
