@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-340102174c4336ef52b0.js",
-      "component---src-pages-index-js-340102174c4336ef52b0.js.map"
+      "component---src-pages-index-js-4c224ef518ffde321c8e.js",
+      "component---src-pages-index-js-4c224ef518ffde321c8e.js.map"
     ],
     "component---src-pages-works-js": [
-      "component---src-pages-works-js-c000754671dc7b70f5df.js",
-      "component---src-pages-works-js-c000754671dc7b70f5df.js.map"
+      "component---src-pages-works-js-e1c8db676fc75ab639ca.js",
+      "component---src-pages-works-js-e1c8db676fc75ab639ca.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -37,8 +37,8 @@
       "app-fb3bad2e360276b9ecd6.js.map"
     ],
     "component---src-pages-skills-js": [
-      "component---src-pages-skills-js-2c639763022d1ab763f1.js",
-      "component---src-pages-skills-js-2c639763022d1ab763f1.js.map"
+      "component---src-pages-skills-js-b736a906ceec63652678.js",
+      "component---src-pages-skills-js-b736a906ceec63652678.js.map"
     ]
   }
 }
