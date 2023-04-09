@@ -6,3 +6,5 @@ resources/_gen/
 
 #ignore all css generated
 assets/css/style.css
+
+public/
