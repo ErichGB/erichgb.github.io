@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
+        linkeding: '#0a66c2',
         'primary': {
           DEFAULT: '#6366F1',
           50: '#FFFFFF',
