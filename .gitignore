@@ -5,4 +5,4 @@ pnpm-lock.yaml
 resources/_gen/
 
 #ignore all css generated
-assets/css/
+assets/css/style.css
