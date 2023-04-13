@@ -23,4 +23,8 @@
 {{ else }}
 {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
+
+<script src="https://cdn.lr-ingest.com/LogRocket.min.js" crossorigin="anonymous"></script>
+<script>window.LogRocket && window.LogRocket.init('erichgbgithubio/erichgbgithubio');</script>
+
 {{ end }}
