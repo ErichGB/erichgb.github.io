@@ -8,3 +8,7 @@ resources/_gen/
 assets/css/style.css
 
 public/
+
+.DS_Store
+
+.idea/
