@@ -1,5 +1,6 @@
 {{ define "main" }}
-<main class="grid gap-6 grid-flow-row p-6 content-start md:max-w-sm mx-auto md:mx-auto">
+<main class="grow grid gap-6 grid-flow-row p-6 content-start mx-auto
+             md:max-w-sm ">
     <article class="grid text-center items-center gap-2 content-start py-8 md:py-2">
 
         {{ $heroOne := resources.GetMatch "images/global/avatar.jpg" }}
@@ -10,10 +11,11 @@
         {{ $large := ($heroOne.Fit "1374x1000 q80") }}
 
         <img srcset="
-            {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+            {{- with $tiny.RelPermalink -}}{{.}} 380w{{- end -}}
             {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
             {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
-            {{- with $large.RelPermalink -}}, {{.}} 1374w{{- end -}}" src="{{ $heroOne.RelPermalink }}"
+            {{- with $large.RelPermalink -}}, {{.}} 1374w{{- end -}}" 
+            src="{{ $heroOne.RelPermalink }}"
             alt="Avatar Autor Image"
             class="rounded-full mx-auto w-20 h-20" 
             loading="lazy" />
