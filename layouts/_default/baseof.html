@@ -5,13 +5,13 @@
     {{ partial "head.html" . }}
 </head>
 
-<body class="bg-sky-50 h-screen 
+<body class="bg-sky-50 h-screen flex flex-col
              dark:bg-gray-900
-             md:flex md:items-center md:justify-center
+             md:items-center md:justify-center
              ">
-    {{/*  {{ partial "nav.html" . }}  */}}
+    {{ partial "nav.html" . }} 
     {{ block "main" . }}{{ end }}
-    {{/*  {{ partial "footer" . }}  */}}
+    {{ partial "footer" . }}
 </body>
 
 </html>
