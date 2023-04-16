@@ -1,5 +1,5 @@
 <p align="center" style="padding-top:20px">
- <img width="100px" src="images/Logo.svg" align="center" alt="Logo ErichGB" />
+ <img width="100px" src="static/images/Logo.svg" align="center" alt="Logo ErichGB" />
  <h2 align="center">ErichGB</h1>
 </p>
 
