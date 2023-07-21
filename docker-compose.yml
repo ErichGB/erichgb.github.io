@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  server:
+    image: klakegg/hugo:ext-ubuntu-ci
+    command: hugo server
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"
+
