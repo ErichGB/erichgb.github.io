@@ -1,7 +1,7 @@
 {
   "name": "ErichGB.github.io",
   "author": "ErichGB",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Personal Web Site",
   "main": "index.js",
   "devDependencies": {
