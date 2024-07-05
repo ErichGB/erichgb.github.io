@@ -2,7 +2,7 @@ version: "3.9"
 services:
   server:
     image: klakegg/hugo:ext-ubuntu-ci
-    command: hugo server
+    command: sh -c "if [ ! -d node_modules ]; then npm install; fi && npm run start"
     volumes:
       - ".:/src"
     ports:
