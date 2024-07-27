@@ -1,0 +1,12 @@
+{
+  "updated": "2021-07-02",
+  "items": [
+    {"Name":"Universidad Nacional de Ingenieria - uni","Position":"WebMaster","Date":"January 1, 2013 \u2192 December 31, 2014","Website":"uni.edu.ni","Description":null},
+    {"Name":"Kronoscode","Position":"Frontend Developer","Date":"January 1, 2015 \u2192 December 31, 2016","Website":"kronoscode.com","Description":null},
+    {"Name":"Epictech","Position":"Frontend Developer","Date":"July 1, 2017 \u2192 April 30, 2019","Website":"epictechcorp.com","Description":null},
+    {"Name":"Nerdify","Position":"Full Stack JavaScript Developer","Date":"May 1, 2019 \u2192 August 31, 2020","Website":"getnerdify.com","Description":null},
+    {"Name":"Top Floor Marketing","Position":"Lead Web Developer","Date":"September 1, 2020 \u2192 June 30, 2021","Website":"topfloormarketing.net","Description":null},
+    {"Name":"Digitalreef \/ IMOX","Position":"Lead Web Developer","Date":"July 1, 2021 \u2192 February 28, 2023","Website":"imox.io","Description":null},
+    {"Name":"IZERTIS","Position":"Frontend Developer","Date":"July 2, 2023","Website":"www.izertis.com\/es\/","Description":null}
+  ]
+}

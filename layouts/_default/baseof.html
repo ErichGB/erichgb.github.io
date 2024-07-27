@@ -5,13 +5,16 @@
     {{ partial "head.html" . }}
 </head>
 
-<body class="bg-sky-50 h-screen flex
+<body class="bg-sky-50 min-h-screen flex
              dark:bg-gray-900
              md:items-center md:justify-center
              ">
 <!--    {{ partial "nav.html" . }} -->
     {{ block "main" . }}{{ end }}
-<!--    {{ partial "footer" . }}-->
+    {{ partial "footer" . }}
+{{ $alpine := resources.Get "js/alpine.js" | js.Build }}
+<script src="{{ $alpine.RelPermalink }}" defer></script>
+{{ $js := resources.Get "js/darkmode.js" | js.Build }}
+<script src="{{ $js.RelPermalink }}" defer></script>
 </body>
-
 </html>
